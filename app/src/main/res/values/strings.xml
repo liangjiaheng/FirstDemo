@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyDemo</string>
+    <string name="new_information">新闻资讯</string>
+    <string name="company_information">公司新闻</string>
+    <string name="internet">网络技术有限公司旗下</string>
+    <string name="source">来源</string>
+    <string name="time">时间</string>
+    <string name="loading">正在加载，请稍等。。。</string>
+
+    <string-array name="title">
+        <item>效松世纪网络技术有限公司：十一小长假购物指南</item>
+        <item>Fekkai2016秋冬系列发布</item>
+        <item>效松世纪（北京）网络技术有限公司旗下“品牌排行榜”举办的行业十大品牌网络投票</item>
+        <item>效松世纪（北京）网络技术有限公司旗下</item>
+    </string-array>
+
+</resources>

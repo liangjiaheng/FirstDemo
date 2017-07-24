@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/type1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/title_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/internet"
+            android:textColor="@color/title1"
+            android:textSize="17sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/source_"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxEms="6"
+                android:singleLine="true"
+                android:text="@string/source"
+                android:textColor="@color/title2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/data_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间"
+                android:textColor="@color/title2"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.practice.firstdemo.custom.CustomImageView
+        android:id="@+id/img_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42px"
+        android:background="@color/background" />
+
+
+</LinearLayout>
